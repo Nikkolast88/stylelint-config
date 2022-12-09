@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
-    'stylelint-config-recommended-vue',
-    '@uni-daily/stylelint-config-basic'
+    '@uni-daily/stylelint-config-basic',
+    'stylelint-config-standard-scss',
+    'stylelint-config-recommended-vue/scss'
   ],
   rules: {}
 }

@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@uni-daily/stylelint-config-basic": "workspace:*",
-    "stylelint-config-recommended-vue": "^1.4.0"
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard-scss": "^6.1.0"
   }
 }
