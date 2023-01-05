@@ -16,7 +16,6 @@ importers:
 
   packages/basic:
     specifiers:
-      postcss-html: ^1.5.0
       postcss-scss: ^4.0.6
       stylelint: ^14.16.0
       stylelint-config-prettier: ^9.0.4
@@ -24,7 +23,6 @@ importers:
       stylelint-config-standard-scss: ^6.1.0
       stylelint-declaration-block-no-ignored-properties: ^2.6.0
       stylelint-order: ^5.0.0
-      stylelint-selector-bem-pattern: ^2.1.1
     dependencies:
       postcss-scss: 4.0.6
       stylelint-config-prettier: 9.0.4_stylelint@14.16.0
@@ -32,9 +30,7 @@ importers:
       stylelint-config-standard-scss: 6.1.0_stylelint@14.16.0
       stylelint-declaration-block-no-ignored-properties: 2.6.0_stylelint@14.16.0
       stylelint-order: 5.0.0_stylelint@14.16.0
-      stylelint-selector-bem-pattern: 2.1.1
     devDependencies:
-      postcss-html: 1.5.0
       stylelint: 14.16.0
 
   packages/vue:
@@ -1178,6 +1174,7 @@ packages:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       entities: 4.4.0
+    dev: false
 
   /domelementtype/1.3.1:
     resolution: {integrity: sha512-BSKB+TSpMpFI/HOxCNr1O8aMOTZ8hT3pM3GQ0w/mWRmkhEDSFJkkyzz4XQsBV44BChwGkrDfMyjVD0eA2aFV3w==}
@@ -1185,6 +1182,7 @@ packages:
 
   /domelementtype/2.3.0:
     resolution: {integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==}
+    dev: false
 
   /domhandler/2.4.2:
     resolution: {integrity: sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==}
@@ -1197,6 +1195,7 @@ packages:
     engines: {node: '>= 4'}
     dependencies:
       domelementtype: 2.3.0
+    dev: false
 
   /domutils/1.7.0:
     resolution: {integrity: sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==}
@@ -1211,6 +1210,7 @@ packages:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
+    dev: false
 
   /dot-prop/5.3.0:
     resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
@@ -1246,6 +1246,7 @@ packages:
   /entities/4.4.0:
     resolution: {integrity: sha512-oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==}
     engines: {node: '>=0.12'}
+    dev: false
 
   /error-ex/1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
@@ -2044,6 +2045,7 @@ packages:
       domhandler: 5.0.3
       domutils: 3.0.1
       entities: 4.4.0
+    dev: false
 
   /human-signals/3.0.1:
     resolution: {integrity: sha512-rQLskxnM/5OCldHo+wNXbpVgDn5A17CUoKX+7Sokwaknlq7CdSnphy0W39GU8dw59XiCXmFXDg4fRuckQRKewQ==}
@@ -2339,6 +2341,7 @@ packages:
 
   /js-tokens/8.0.0:
     resolution: {integrity: sha512-PC7MzqInq9OqKyTXfIvQNcjMkODJYC8A17kAaQgeW79yfhqTWSOfjHYQ2mDDcwJ96Iibtwkfh0C7R/OvqPlgVA==}
+    dev: false
 
   /js-yaml/3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
@@ -3030,14 +3033,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /postcss-bem-linter/3.3.0:
-    resolution: {integrity: sha512-qfgbgf6JmSpJEdglPOsx6GXkQg+dyHRGkflFoACZYL1dVFqoN5O3KhynuCvZFZ1DVfCFCuqEFgnwn8AyN+4qeQ==}
-    dependencies:
-      minimatch: 3.1.2
-      postcss: 7.0.39
-      postcss-resolve-nested-selector: 0.1.1
-    dev: false
-
   /postcss-html/0.36.0_j55xdkkcxc32kvnyvx3y7casfm:
     resolution: {integrity: sha512-HeiOxGcuwID0AFsNAL0ox3mW6MHH5cstWN1Z3Y+n6H+g12ih7LHdYxWwEA/QmrebctLjo79xz9ouK3MroHwOJw==}
     peerDependencies:
@@ -3057,6 +3052,7 @@ packages:
       js-tokens: 8.0.0
       postcss: 8.4.19
       postcss-safe-parser: 6.0.0_postcss@8.4.19
+    dev: false
 
   /postcss-jsx/0.36.4_j55xdkkcxc32kvnyvx3y7casfm:
     resolution: {integrity: sha512-jwO/7qWUvYuWYnpOb0+4bIIgJt7003pgU3P6nETBLaOyBXuTD55ho21xnals5nBrlpTIFodyd3/jBi6UO3dHvA==}
@@ -3873,17 +3869,6 @@ packages:
       postcss-selector-parser: 6.0.11
       postcss-value-parser: 4.2.0
       stylelint: 14.16.0
-    dev: false
-
-  /stylelint-selector-bem-pattern/2.1.1:
-    resolution: {integrity: sha512-zLaK/aMwUqLxR86CpFNsfelwCTdDw3kdtWbtAKEch6bpOQvYvKmFFfvMRCGjeKwylWgTRRrZA11okZw5WK0IOw==}
-    dependencies:
-      lodash: 4.17.21
-      postcss: 8.4.19
-      postcss-bem-linter: 3.3.0
-      stylelint: 14.16.0
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /stylelint/14.16.0:
